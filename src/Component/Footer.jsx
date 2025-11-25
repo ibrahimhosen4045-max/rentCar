@@ -4,7 +4,7 @@ import img from '../assets/logofo.png'
 
 const Footer = () => {
   return (
-    <div className='bg-cover bg-center ' style={{ backgroundImage: `url('/src/assets/footer.jpg')` }}>
+    <div className='bg-cover bg-center ' style={{ backgroundImage: `url('https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg')` }}>
       <div className='w-full h-full bg-gray-950/95'>
       <footer className="footer container mx-auto sm:footer-horizontal  text-base-content py-30 "
       
