@@ -94,7 +94,7 @@ export default function HeroSec() {
           </div>
 
           {/* Info Section */}
-          <div className="lg:absolute left-10 z-50 lg:col-span-4  ">
+          <div className="lg:absolute left-10 z-10 lg:col-span-4  ">
             <div className="flex flex-col gap-6 ">
               <div className="bg-black/15  lg:w-110 flex flex-col gap-5 p-8 rounded-xl backdrop-blur-[5px] border border-white/10 shadow-sm">
                 <h3 className="text-[34px] font-bold text-[#EDC305]">{sliderData[active].title}</h3>

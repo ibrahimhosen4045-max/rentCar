@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaGasPump, FaCogs, FaUsers, FaCalendarAlt, FaRoad } from "react-icons/fa";
 import { PiSteeringWheelLight } from 'react-icons/pi';
 import img5 from '../assets/carlogo.png'
+import { Link } from 'react-router';
 
 export default function Section2() {
   const [cars, setCars] = useState([]);
@@ -49,9 +50,9 @@ export default function Section2() {
       </div>
 
       {/* CAR GRID */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
-        {cars.slice(0, visibleCount).map((car, idx) => (
-          <div key={idx} className=" rounded-2xl shadow-lg overflow-hidden flex flex-col ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:lg:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-7">
+        {cars.slice(0, visibleCount).map((car) => (
+          <div key={car.id} className=" rounded-2xl shadow-lg overflow-hidden flex flex-col ">
             <div className="h-50 w-full relative">
               <img
                 src={car.image}
@@ -113,9 +114,13 @@ export default function Section2() {
               <div className="mt-3 flex items-center justify-between">
                 <div className="text-md font-medium">{car.price}</div>
                 <div className='flex gap-2'>
+                  <Link
+                  to={`/cars/${cars.id}`}
+                  >
                   <button className='px-3 py-1 text-md rounded-lg bg-amber-400 font-semibold text-white hover:bg-[#c9a60c] transition'>
                   Details
                   </button>
+                  </Link>
                   <a href="#123">
                   <button className="px-3 py-1 text-md rounded-lg bg-amber-400 font-semibold text-white hover:bg-[#c7a612] transition">
                   Book Now

@@ -17,7 +17,7 @@ const Section3 = () => {
         </div>
         <h1 className='text-5xl font-bold font-jalano text-center uppercase'>explore most popular cars</h1>
       </div>
-      <div className='grid lg:grid-cols-4 container mx-auto gap-8 pb-15'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:lg:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 container mx-auto gap-8 pb-15'>
         <div className='flex flex-col gap-4 bg-gray-900 text-white/70 p-5 rounded-2xl'>
             <div className='flex items-center justify-between pb-8'>
                 <div className='p-4 rounded-full bg-amber-400'><img src={img1} alt="" />
@@ -25,7 +25,7 @@ const Section3 = () => {
                 </div>
                 <h1 className='text-[60px]'>01</h1>
             </div>
-            <h1 className='text-3xl font-bold text-amber-400'>Choose A Car</h1>
+            <h1 className='text-2xl font-bold text-amber-400 font-jalano'>Choose A Car</h1>
             <p className='text-lg font-semibold '>
                 Open multipy a green form lesser <br /> their from in made herb multiply
             </p>
@@ -37,7 +37,7 @@ const Section3 = () => {
                 </div>
                 <h1 className='text-[60px]'>02</h1>
             </div>
-            <h1 className='text-3xl font-bold text-amber-400'>Come In Contact</h1>
+            <h1 className='text-2xl font-bold text-amber-400 font-jalano'>Come In Contact</h1>
             <p className='text-lg font-semibold '>
                 Open multipy a green form lesser their from in made herb multiply
             </p>
@@ -49,7 +49,7 @@ const Section3 = () => {
                 </div>
                 <h1 className='text-[60px]'>03</h1>
             </div>
-            <h1 className='text-3xl font-bold text-amber-400'>Pick-Up Locations</h1>
+            <h1 className='text-2xl font-bold text-amber-400 font-jalano'>Pick-Up Locations</h1>
             <p className='text-lg font-semibold '>
                 Open multipy a green form lesser their from in made herb multiply
             </p>
@@ -61,7 +61,7 @@ const Section3 = () => {
                 </div>
                 <h1 className='text-[60px]'>04</h1>
             </div>
-            <h1 className='text-3xl font-bold text-amber-400'>Enjoy Driving</h1>
+            <h1 className='text-2xl font-bold text-amber-400 font-jalano'>Enjoy Driving</h1>
             <p className='text-lg font-semibold '>
                 Open multipy a green form lesser their from in made herb multiply
             </p>

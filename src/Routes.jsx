@@ -6,6 +6,7 @@ import SecHome from "./Layout/SecHome";
 import BlogDetails from "./Layout/BlogDetails";
 import CarsCard from "./Layout/CarsCard";
 import Loging from "./Layout/Loging";
+import CarsDetails from "./Component2/CarsDetails";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
             {
                 path: "/cars",
                 element: <CarsCard></CarsCard>
+            },
+            {
+                path: "/cars/:id",
+                element: <CarsDetails></CarsDetails>
             },
             {
                 path: "/login",

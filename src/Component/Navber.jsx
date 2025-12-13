@@ -3,6 +3,7 @@ import img from '../assets/nlogo.png'
 import { Link, NavLink } from 'react-router'
 import { UserContext } from '../UserContext'
 import { GiCarKey } from 'react-icons/gi'
+import img1 from '../assets/user1.png'
 
 const Navber = () => {
   const { user, logout } = useContext(UserContext);
@@ -16,7 +17,7 @@ const Navber = () => {
   );
 
   return (
-    <div className="navbar z-50 bg-white backdrop-blur-sm">
+    <div className="navbar z-50 bg-white backdrop-blur-sm absolute fixed  shadow-2xl">
       <div className="flex justify-between w-11/12 mx-auto">
 
         {/* Left */}
@@ -68,11 +69,18 @@ const Navber = () => {
                 </div>
               </div>
 
-              <ul className="dropdown-content bg-white p-3 shadow rounded-lg w-40 mt-2">
-                <li className="mb-2">{user.email}</li>
+              <ul className="dropdown-content p-3 shadow text-white rounded-lg w-70 lg:w-80 mt-2 h-screen  absolute -right-8 sm:-right-13 lg:-right-23 z-70 bg-gray-900">
+                <li className='flex items-center justify-center '><div className=' p-10 bg-yellow-500 rounded-full'>
+                  <img src={img1} alt="" />
+                  </div></li>
+                  
+                <li className="my-2 text-lg font-semibold">{user.email}</li>
+                <div className='flex flex-col gap-2'>
+                  {menu}
+                </div>
                 <li>
                   <button onClick={logout}
-                    className="w-full text-left text-red-600">
+                    className="w-full text-left text-red-600 my-2 cursor-pointer">
                     Logout
                   </button>
                 </li>

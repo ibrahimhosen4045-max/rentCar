@@ -15,7 +15,7 @@ const Saction1 = () => {
         </div>
         <h1 className='text-5xl font-bold font-jalano text-center'>services we're provding <br /> to customers</h1>
       </div>
-      <div className='grid md:grid-cols-2 lg:grid-cols-4 container mx-auto gap-8 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:lg:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 container mx-auto gap-8 '>
         <div className='bg-gray-900 py-8 px-5 flex flex-col gap-3 rounded-2xl  relative overflow-hidden'>
             <div className='pb-10'><img src={img3} alt="" className=''/></div>
             <h1 className='text-2xl font-bold font-jalano text-[#EDC305]'>Car tental with driver</h1>

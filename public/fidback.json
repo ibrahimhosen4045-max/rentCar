@@ -1,0 +1,79 @@
+[
+    {
+      "name": "lina roas",
+      "role": "Customer",
+      "review_text": "maintaining oral health through practices such as the regular check-a ups, cleanings, and treatments for teeth and an gums.",
+      "rating": 5,
+      "profile_image": "https://i.ibb.co.com/LXLzFjhb/w-1-min.jpg"
+    },
+    {
+      "name": "Harry Broke",
+      "role": "Customer",
+      "review_text": "maintaining oral health through practices such as the regular check-a ups, cleanings, and treatments for teeth and an gums.",
+      "rating": 5,
+      "profile_image": "https://i.ibb.co.com/jvRTw9qg/m-1-min.jpg"
+    },
+    {
+      "name": "Jessica Brown",
+      "role": "Customer",
+      "review_text": "maintaining oral health through practices such as the regular check-a ups, cleanings, and treatments for teeth and an gums.",
+      "rating": 5,
+      "profile_image": "https://i.ibb.co.com/99Qr339F/w-2-min.jpg"
+    },
+    {
+      "name": "David Clark",
+      "role": "Satisfied Client",
+      "review_text": "Exceptional service and friendly staff. My teeth feel healthier than ever before. Highly recommended for all dental needs.",
+      "rating": 4,
+      "profile_image": "https://i.ibb.co.com/PGh1QvVt/m-2-min.jpg"
+    },
+    {
+      "name": "Sarah Miller",
+      "role": "Patient",
+      "review_text": "The entire process was smooth and painless. They took the time to explain every step of the cleaning procedure.",
+      "rating": 5,
+      "profile_image": "https://i.ibb.co.com/DPv3Zp8s/w-3-min.jpg"
+    },
+    {
+      "name": "Thomas Lee",
+      "role": "Repeat Visitor",
+      "review_text": "Consistent quality care year after year. The best dental practice in the area for preventative maintenance.",
+      "rating": 5,
+      "profile_image": "https://i.ibb.co.com/DH9nQQpg/m-3-min.jpg"
+    },
+    {
+      "name": "Emily Chen",
+      "role": "New Customer",
+      "review_text": "Very thorough first examination. They gave me great advice on improving my daily brushing habits.",
+      "rating": 4,
+      "profile_image": "https://i.ibb.co.com/TqptyP4L/w-4-min.jpg"
+    },
+    {
+      "name": "Michael Velez",
+      "role": "Client",
+      "review_text": "Quick appointment scheduling and zero wait time. Appreciate their efficiency and professional attitude.",
+      "rating": 4,
+      "profile_image": "https://i.ibb.co.com/MxdGv4k0/m-4-min.jpg"
+    },
+    {
+      "name": "Anna Petrova",
+      "role": "Long-term Client",
+      "review_text": "They truly care about your long-term oral health. Always leave feeling confident and well-cared for.",
+      "rating": 5,
+      "profile_image": "https://i.ibb.co.com/XrmzXpGp/w-5-min.jpg"
+    },
+    {
+      "name": "Robert G.",
+      "role": "Happy Customer",
+      "review_text": "Had a minor procedure done; it was handled with utmost skill and minimal discomfort. Excellent work!",
+      "rating": 5,
+      "profile_image": "https://i.ibb.co.com/ZRM1wHjp/m-5-min.jpg"
+    },
+    {
+      "name": "Linda White",
+      "role": "Local Resident",
+      "review_text": "A perfect experience for a routine check-up. The staff is always welcoming and the facility is spotless.",
+      "rating": 4,
+      "profile_image": "https://i.ibb.co.com/d9ZYqNr/w-6-min.jpg"
+    }
+  ]

@@ -161,9 +161,13 @@ export default function Cars() {
               <div className="mt-3 flex items-center justify-between">
                 <div className="text-md font-medium">{car.price}</div>
                 <div className='flex gap-2'>
-                  <button className='px-3 py-1 text-md rounded-lg bg-amber-400 font-semibold text-white hover:bg-[#c9a60c] transition'>
+                  <Link
+                  to={`/cars/${cars.id}`}
+                  >
+                    <button className='px-3 py-1 text-md rounded-lg bg-amber-400 font-semibold text-white hover:bg-[#c9a60c] transition'>
                     Details
                   </button>
+                  </Link>
                   <a href="#1234">
                   <button className="px-3 py-1 text-md rounded-lg bg-amber-400 font-semibold text-white hover:bg-[#c7a612] transition">
                     Book Now
