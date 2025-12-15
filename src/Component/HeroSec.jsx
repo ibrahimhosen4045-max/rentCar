@@ -55,7 +55,7 @@ export default function HeroSec() {
   const swiperRef = useRef(null);
 
   return (
-    <section className="w-full">
+    <section className="w-full pt-14">
       <div className="relative w-full mx-auto px-4">
         <div className="relative w-screen -ml-4 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center overflow-hidden">
 
@@ -72,21 +72,53 @@ export default function HeroSec() {
               >
                 {sliderData.map((item, idx) => (
                   <SwiperSlide key={idx}>
-                    <div className="relative h-full w-full overflow-hidden">
-                      
-                      {/* >>> Updated image height = 80% <<< */}
-                      <img
-                        src={item.img}
-                        alt={item.title}
-                        className="w-full h-[100%] object-cover object-center "
-                      />
+                   <div className="relative h-full w-full overflow-hidden">
+  
+                  {/* Image */}
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    className="
+                      w-full 
+                      h-full 
+                      object-cover 
+                      object-center
+                      sm:object-center
+                      md:object-center
+                    "
+                  />
 
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/55 to-transparent"></div>
+                  {/* Overlay gradient */}
+                  <div
+                    className="
+                      absolute inset-0 
+                      bg-gradient-to-t 
+                      from-black/70 
+                      via-black/30 
+                      to-transparent
+                    "
+                  ></div>
 
-                      <div className="absolute top-4 left-4 bg-white/10 text-white px-3 py-1 rounded-md backdrop-blur-sm text-sm">
-                        Featured
-                      </div>
-                    </div>
+                  {/* Badge */}
+                  <div
+                    className="
+                      absolute 
+                      top-3 left-3 
+                      sm:top-4 sm:left-4
+                      bg-white/10 
+                      text-white 
+                      px-2 py-1 
+                      sm:px-3 sm:py-1
+                      rounded-md 
+                      backdrop-blur-sm 
+                      text-xs sm:text-sm
+                    "
+                  >
+                    Featured
+                  </div>
+
+                </div>
+
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -96,7 +128,16 @@ export default function HeroSec() {
           {/* Info Section */}
           <div className="lg:absolute left-10 z-10 lg:col-span-4  ">
             <div className="flex flex-col gap-6 ">
-              <div className="bg-black/15  lg:w-110 flex flex-col gap-5 p-8 rounded-xl backdrop-blur-[5px] border border-white/10 shadow-sm">
+              <div className="
+              flex flex-col gap-5 p-6 sm:p-8 rounded-xl shadow-sm border
+            bg-gray-900/98 text-black
+            border-gray-200
+
+            lg:bg-black/15 lg:text-white
+            lg:border-white/10
+              lg:backdrop-blur-[5px]
+              lg:w-110
+              ">
                 <h3 className="text-[34px] font-bold text-[#EDC305]">{sliderData[active].title}</h3>
                 <p className="mt-2 text-md text-white/80">{sliderData[active].desc}</p>
 
@@ -141,11 +182,11 @@ export default function HeroSec() {
 
               {/* Extra Small Cards */}
               <div className="grid grid-cols-2 gap-3">
-                <div className="p-4 bg-black/15 rounded-xl border border-white/6">
+                <div className="p-4 bg-gray-900/98 lg:bg-black/15 rounded-xl border border-white/6">
                   <h4 className="text-sm text-white/90 font-medium">Free Delivery</h4>
                   <p className="text-xs text-white/70">On bookings over $1000</p>
                 </div>
-                <div className="p-4 bg-black/15 rounded-xl border border-white/6">
+                <div className="p-4 bg-gray-900/98 lg:bg-black/15 rounded-xl border border-white/6">
                   <h4 className="text-sm text-white/90 font-medium">24/7 Support</h4>
                   <p className="text-xs text-white/70">Live chat & hotline</p>
                 </div>

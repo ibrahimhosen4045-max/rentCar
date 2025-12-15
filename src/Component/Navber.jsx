@@ -17,7 +17,7 @@ const Navber = () => {
   );
 
   return (
-    <div className="navbar z-50 bg-white backdrop-blur-sm absolute fixed  shadow-2xl">
+    <div className="navbar z-50 bg-white backdrop-blur-sm fixed shadow-2xl">
       <div className="flex justify-between w-11/12 mx-auto">
 
         {/* Left */}

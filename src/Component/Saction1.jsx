@@ -8,14 +8,14 @@ import img5 from '../assets/carlogo.png'
 const Saction1 = () => {
   return (
     <div className='py-10'>
-      <div className='pb-10'>
-        <div className='text-lg uppercase font-semibold font-jalano text-[#EDC305] text-center flex gap-3 items-center justify-center'>
+      <div className='pb-10 '>
+        <div className='text-lg uppercase font-semibold font-jalano text-[#EDC305] text-center flex gap-3 items-center justify-center '>
             <div><img src={img5} alt=""  className='w-20'/></div>
             <h1>what we're offering</h1>
         </div>
         <h1 className='text-5xl font-bold font-jalano text-center'>services we're provding <br /> to customers</h1>
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:lg:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 container mx-auto gap-8 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:lg:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 container mx-auto gap-8 p-3'>
         <div className='bg-gray-900 py-8 px-5 flex flex-col gap-3 rounded-2xl  relative overflow-hidden'>
             <div className='pb-10'><img src={img3} alt="" className=''/></div>
             <h1 className='text-2xl font-bold font-jalano text-[#EDC305]'>Car tental with driver</h1>

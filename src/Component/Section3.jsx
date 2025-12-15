@@ -17,7 +17,7 @@ const Section3 = () => {
         </div>
         <h1 className='text-5xl font-bold font-jalano text-center uppercase'>explore most popular cars</h1>
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:lg:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 container mx-auto gap-8 pb-15'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:lg:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 container mx-auto gap-8 pb-15 p-3'>
         <div className='flex flex-col gap-4 bg-gray-900 text-white/70 p-5 rounded-2xl'>
             <div className='flex items-center justify-between pb-8'>
                 <div className='p-4 rounded-full bg-amber-400'><img src={img1} alt="" />
