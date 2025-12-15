@@ -17,9 +17,9 @@ export default function BlogDetails() {
   if (!post) return <p className="p-6">Loading...</p>;
 
   return (
-    <div className="container mx-auto grid lg:grid-cols-2 gap-10 py-15">
+    <div className="container mx-auto grid lg:grid-cols-2 gap-10 py-15 pt-30">
       <div>
-        <img src={post.image} className="w-full rounded-xl mb-4" />
+        <img src={post.image} className="w-full rounded-xl mb-4 shadow-2xl" />
       </div>
       <div className="flex flex-col justify-around">
         <div className=" border border-black/20 lg:py-6 lg:px-6 rounded-2xl">

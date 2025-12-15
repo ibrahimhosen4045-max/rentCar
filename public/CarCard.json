@@ -1,268 +1,42 @@
 [
-  {
-    "brand": "Audi",
-    "model": "A3 2025 New",
-    "image": "https://i.ibb.co.com/qZ5zD1p/audi1.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$100/ Day"
-  },
-  {
-    "brand": "Ferrari",
-    "model": "458 MM Speciale",
-    "image": "https://i.ibb.co.com/PG0L6BNL/farari1.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "11.4",
-    "price": "$100/ Day"
-  },
-  {
-    "brand": "Audi",
-    "model": "Sport Version",
-    "image": "https://i.ibb.co.com/j955f84v/audi2.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "16.4",
-    "price": "$100/ Day"
-  },
-  {
-    "brand": "Toyota",
-    "model": "Tacoma 4WD",
-    "image": "https://i.ibb.co.com/PG8KD8ZV/toyta1.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "18.4",
-    "price": "$100/ Day"
-  },
-  {
-    "brand": "Toyota",
-    "model": "Camry Hybrid",
-    "image": "https://i.ibb.co.com/pB2CZh2d/toyta2.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "8.4",
-    "price": "$120/ Day"
-  },
-  
-  
-  {
-    "brand": "Honda",
-    "model": "CR-V 2024",
-    "image": "https://i.ibb.co.com/kV43xm8z/honda1.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "11.4",
-    "price": "$135/ Day"
-  },
-  {
-    "brand": "Mercedes-Benz",
-    "model": "C-Class 2023",
-    "image": "https://i.ibb.co.com/YBZvrXRQ/marsi1.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$220/ Day"
-  },
-  {
-    "brand": "BMW",
-    "model": "X5 SUV",
-    "image": "https://i.ibb.co.com/Xx8f3zt8/bmw.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "9.4",
-    "price": "$250/ Day"
-  },
-  {
-    "brand": "Tesla",
-    "model": "Model 3 Performance",
-    "image": "https://i.ibb.co.com/1f92WfyL/tesla.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$180/ Day"
-  },
-  {
-    "brand": "Mazda",
-    "model": "CX-5",
-    "image": "https://i.ibb.co.com/055xrF4/maxda.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "19.4",
-    "price": "$115/ Day"
-  },
-  {
-    "brand": "Suzuki",
-    "model": "Swift Hatchback",
-    "image": "https://i.ibb.co.com/4nK94wCZ/suzuki.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$70/ Day"
-  },
-  {
-    "brand": "Acura",
-    "model": "RDX 2023",
-    "image": "https://i.ibb.co.com/99pCL46p/arka.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "16.4",
-    "price": "$150/ Day"
-  },
-  {
-    "brand": "Porsche",
-    "model": "911 Carrera S",
-    "image": "https://i.ibb.co.com/LDTPhmDK/forsh.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$350/ Day"
-  },
-  {
-    "brand": "Land Rover",
-    "model": "Defender 110",
-    "image": "https://i.ibb.co.com/bgzDDj7q/Land-Rover.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "21.4",
-    "price": "$300/ Day"
-  },
-  {
-    "brand": "Toyota",
-    "model": "Prius Prime",
-    "image": "https://i.ibb.co.com/9kVgdxZq/toyta3.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$105/ Day"
-  },
-  {
-    "brand": "Audi",
-    "model": "Sport Version",
-    "image": "https://i.ibb.co.com/j955f84v/audi2.jpg",
-    "details": ["Manual", "25 KM", "Diesel", "Basic", "Age 25", "5 Persons"],
-    "discout": "13.4",
-    "price": "$100/ Day"
-  },
-  {
-    "brand": "Audi",
-    "model": "A4 Sedan 2024",
-    "image": "https://i.ibb.co.com/WqNBTkM/audi1.jpg",
-    "details": ["Automatic", "20 KM", "Gasoline", "Premium", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$110/ Day"
-  },
-  {
-    "brand": "Ferrari",
-    "model": "F8 Tributo",
-    "image": "https://i.ibb.co.com/GfpNCMth/farari1.jpg",
-    "details": ["Automatic", "5 KM", "Gasoline", "Luxury", "Age 30", "2 Persons"],
-    "discout": "20.4",
-    "price": "$400/ Day"
-  },
-  {
-    "brand": "Ferrari",
-    "model": "Portofino M",
-    "image": "https://i.ibb.co.com/t7M0XwR/farari2.jpg",
-    "details": ["Automatic", "5 KM", "Gasoline", "Luxury", "Age 30", "2 Persons"],
-    "discout": "12.4",
-    "price": "$380/ Day"
-  },
-  {
-    "brand": "Ferrari",
-    "model": "Roma",
-    "image": "https://i.ibb.co.com/RpgCPxm3/farari3.jpg",
-    "details": ["Automatic", "5 KM", "Gasoline", "Luxury", "Age 30", "2 Persons"],
-    "discout": "9.4",
-    "price": "$360/ Day"
-  },
-  {
-    "brand": "Toyota",
-    "model": "Prius Prime",
-    "image": "https://i.ibb.co.com/0R22qhGv/toyota1.jpg",
-    "details": ["Automatic", "30 KM", "Hybrid", "Standard", "Age 25", "5 Persons"],
-    "discout": "12.4",
-    "price": "$105/ Day"
-  },
-  {
-    "brand": "Mercedes-Benz",
-    "model": "E-Class 2024",
-    "image": "https://i.ibb.co.com/d4ThdtMn/mars1.jpg",
-    "details": ["Automatic", "15 KM", "Gasoline", "Premium", "Age 25", "5 Persons"],
-    "discout": "6.4",
-    "price": "$240/ Day"
-  },
-  {
-    "brand": "Mercedes-Benz",
-    "model": "GLE SUV",
-    "image": "https://i.ibb.co.com/WpfsKdh5/mars2.jpg",
-    "details": ["Automatic", "15 KM", "Diesel", "Premium", "Age 25", "5 Persons"],
-    "discout": "18.4",
-    "price": "$280/ Day"
-  },
-  {
-    "brand": "Mercedes-Benz",
-    "model": "S-Class 2023",
-    "image": "https://i.ibb.co.com/v6DXxGvS/mars3.jpg",
-    "details": ["Automatic", "10 KM", "Gasoline", "Luxury", "Age 30", "5 Persons"],
-    "discout": "12.4",
-    "price": "$320/ Day"
-  },
-  {
-    "brand": "BMW",
-    "model": "3 Series Sedan",
-    "image": "https://i.ibb.co.com/bgPYMgtV/bmw1.jpg",
-    "details": ["Automatic", "20 KM", "Gasoline", "Standard", "Age 25", "5 Persons"],
-    "discout": "16.4",
-    "price": "$190/ Day"
-  },
-  {
-    "brand": "BMW",
-    "model": "i4 Electric",
-    "image": "https://i.ibb.co.com/KpX4kkvW/bmw2.jpg",
-    "details": ["Automatic", "40 KM", "Electric", "Premium", "Age 25", "5 Persons"],
-    "discout": "9.4",
-    "price": "$210/ Day"
-  },
-  {
-    "brand": "BMW",
-    "model": "M8 Competition",
-    "image": "https://i.ibb.co.com/PzPBg9q3/bmw3.webp",
-    "details": ["Automatic", "10 KM", "Gasoline", "Luxury", "Age 30", "2 Persons"],
-    "discout": "7.4",
-    "price": "$310/ Day"
-  },
-  {
-    "brand": "Porsche",
-    "model": "Cayenne Coupe",
-    "image": "https://i.ibb.co.com/ksL8JLB6/porshe1.jpg",
-    "details": ["Automatic", "15 KM", "Gasoline", "Premium", "Age 30", "5 Persons"],
-    "discout": "12.4",
-    "price": "$330/ Day"
-  },
-  {
-    "brand": "Porsche",
-    "model": "Macan S",
-    "image": "https://i.ibb.co.com/pBcbZfgk/porshe2.jpg",
-    "details": ["Automatic", "15 KM", "Gasoline", "Premium", "Age 25", "5 Persons"],
-    "discout": "14.4",
-    "price": "$290/ Day"
-  },
-  {
-    "brand": "Porsche",
-    "model": "Taycan 4S",
-    "image": "https://i.ibb.co.com/JFWfgWxk/porshe3.jpg",
-    "details": ["Automatic", "35 KM", "Electric", "Luxury", "Age 30", "5 Persons"],
-    "discout": "18.4",
-    "price": "$340/ Day"
-  },
-  {
-    "brand": "Land Rover",
-    "model": "Range Rover Sport",
-    "image": "https://i.ibb.co.com/FPMmZGc/land1.jpg",
-    "details": ["Automatic", "10 KM", "Diesel", "Luxury", "Age 30", "5 Persons"],
-    "discout": "12.4",
-    "price": "$380/ Day"
-  },
-  {
-    "brand": "Land Rover",
-    "model": "Discovery SE",
-    "image": "https://i.ibb.co.com/xKBz8s5w/land2.jpg",
-    "details": ["Automatic", "15 KM", "Diesel", "Premium", "Age 25", "7 Persons"],
-    "discout": "15.4",
-    "price": "$260/ Day"
-  },
-  {
-    "brand": "Land Rover",
-    "model": "Evoque P300",
-    "image": "https://i.ibb.co.com/BHKT0LBf/land3.jpg",
-    "details": ["Automatic", "20 KM", "Gasoline", "Standard", "Age 25", "5 Persons"],
-    "discout": "10.4",
-    "price": "$240/ Day"
-  }
+  { "id": 1, "brand": "Audi", "model": "A3 2025 New", "image": "https://i.ibb.co.com/qZ5zD1p/audi1.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "12.4", "rating": 4.5, "price": "$100/ Day" },
+  { "id": 2, "brand": "Ferrari", "model": "458 MM Speciale", "image": "https://i.ibb.co.com/PG0L6BNL/farari1.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "11.4", "rating": 4.8, "price": "$100/ Day" },
+  { "id": 3, "brand": "Audi", "model": "Sport Version", "image": "https://i.ibb.co.com/j955f84v/audi2.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "16.4", "rating": 4.6, "price": "$100/ Day" },
+  { "id": 4, "brand": "Toyota", "model": "Tacoma 4WD", "image": "https://i.ibb.co.com/PG8KD8ZV/toyta1.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "18.4", "rating": 4.4, "price": "$100/ Day" },
+  { "id": 5, "brand": "Toyota", "model": "Camry Hybrid", "image": "https://i.ibb.co.com/pB2CZh2d/toyta2.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "8.4", "rating": 4.3, "price": "$120/ Day" },
+  { "id": 6, "brand": "Honda", "model": "CR-V 2024", "image": "https://i.ibb.co.com/kV43xm8z/honda1.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "11.4", "rating": 4.5, "price": "$135/ Day" },
+  { "id": 7, "brand": "Mercedes-Benz", "model": "C-Class 2023", "image": "https://i.ibb.co.com/YBZvrXRQ/marsi1.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "12.4", "rating": 4.7, "price": "$220/ Day" },
+  { "id": 8, "brand": "BMW", "model": "X5 SUV", "image": "https://i.ibb.co.com/Xx8f3zt8/bmw.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "9.4", "rating": 4.6, "price": "$250/ Day" },
+  { "id": 9, "brand": "Tesla", "model": "Model 3 Performance", "image": "https://i.ibb.co.com/1f92WfyL/tesla.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "12.4", "rating": 4.9, "price": "$180/ Day" },
+  { "id": 10, "brand": "Mazda", "model": "CX-5", "image": "https://i.ibb.co.com/055xrF4/maxda.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "19.4", "rating": 4.4, "price": "$115/ Day" },
+
+  { "id": 11, "brand": "Suzuki", "model": "Swift Hatchback", "image": "https://i.ibb.co.com/4nK94wCZ/suzuki.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "12.4", "rating": 4.1, "price": "$70/ Day" },
+  { "id": 12, "brand": "Acura", "model": "RDX 2023", "image": "https://i.ibb.co.com/99pCL46p/arka.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "16.4", "rating": 4.5, "price": "$150/ Day" },
+  { "id": 13, "brand": "Porsche", "model": "911 Carrera S", "image": "https://i.ibb.co.com/LDTPhmDK/forsh.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "12.4", "rating": 4.9, "price": "$350/ Day" },
+  { "id": 14, "brand": "Land Rover", "model": "Defender 110", "image": "https://i.ibb.co.com/bgzDDj7q/Land-Rover.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "21.4", "rating": 4.8, "price": "$300/ Day" },
+
+  { "id": 15, "brand": "Toyota", "model": "Prius Prime", "image": "https://i.ibb.co.com/9kVgdxZq/toyta3.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "12.4", "rating": 4.3, "price": "$105/ Day" },
+  { "id": 16, "brand": "Audi", "model": "Sport Version", "image": "https://i.ibb.co.com/j955f84v/audi2.jpg", "details": ["Manual","25 KM","Diesel","Basic","Age 25","5 Persons"], "discout": "13.4", "rating": 4.6, "price": "$100/ Day" },
+
+  { "id": 17, "brand": "Audi", "model": "A4 Sedan 2024", "image": "https://i.ibb.co.com/WqNBTkM/audi1.jpg", "details": ["Automatic","20 KM","Gasoline","Premium","Age 25","5 Persons"], "discout": "12.4", "rating": 4.7, "price": "$110/ Day" },
+  { "id": 18, "brand": "Ferrari", "model": "F8 Tributo", "image": "https://i.ibb.co.com/GfpNCMth/farari1.jpg", "details": ["Automatic","5 KM","Gasoline","Luxury","Age 30","2 Persons"], "discout": "20.4", "rating": 5.0, "price": "$400/ Day" },
+  { "id": 19, "brand": "Ferrari", "model": "Portofino M", "image": "https://i.ibb.co.com/t7M0XwR/farari2.jpg", "details": ["Automatic","5 KM","Gasoline","Luxury","Age 30","2 Persons"], "discout": "12.4", "rating": 4.9, "price": "$380/ Day" },
+  { "id": 20, "brand": "Ferrari", "model": "Roma", "image": "https://i.ibb.co.com/RpgCPxm3/farari3.jpg", "details": ["Automatic","5 KM","Gasoline","Luxury","Age 30","2 Persons"], "discout": "9.4", "rating": 4.8, "price": "$360/ Day" },
+
+  { "id": 21, "brand": "Toyota", "model": "Prius Prime", "image": "https://i.ibb.co.com/0R22qhGv/toyota1.jpg", "details": ["Automatic","30 KM","Hybrid","Standard","Age 25","5 Persons"], "discout": "12.4", "rating": 4.4, "price": "$105/ Day" },
+  { "id": 22, "brand": "Mercedes-Benz", "model": "E-Class 2024", "image": "https://i.ibb.co.com/d4ThdtMn/mars1.jpg", "details": ["Automatic","15 KM","Gasoline","Premium","Age 25","5 Persons"], "discout": "6.4", "rating": 4.6, "price": "$240/ Day" },
+  { "id": 23, "brand": "Mercedes-Benz", "model": "GLE SUV", "image": "https://i.ibb.co.com/WpfsKdh5/mars2.jpg", "details": ["Automatic","15 KM","Diesel","Premium","Age 25","5 Persons"], "discout": "18.4", "rating": 4.7, "price": "$280/ Day" },
+  { "id": 24, "brand": "Mercedes-Benz", "model": "S-Class 2023", "image": "https://i.ibb.co.com/v6DXxGvS/mars3.jpg", "details": ["Automatic","10 KM","Gasoline","Luxury","Age 30","5 Persons"], "discout": "12.4", "rating": 4.9, "price": "$320/ Day" },
+
+  { "id": 25, "brand": "BMW", "model": "3 Series Sedan", "image": "https://i.ibb.co.com/bgPYMgtV/bmw1.jpg", "details": ["Automatic","20 KM","Gasoline","Standard","Age 25","5 Persons"], "discout": "16.4", "rating": 4.5, "price": "$190/ Day" },
+  { "id": 26, "brand": "BMW", "model": "i4 Electric", "image": "https://i.ibb.co.com/KpX4kkvW/bmw2.jpg", "details": ["Automatic","40 KM","Electric","Premium","Age 25","5 Persons"], "discout": "9.4", "rating": 4.8, "price": "$210/ Day" },
+  { "id": 27, "brand": "BMW", "model": "M8 Competition", "image": "https://i.ibb.co.com/PzPBg9q3/bmw3.webp", "details": ["Automatic","10 KM","Gasoline","Luxury","Age 30","2 Persons"], "discout": "7.4", "rating": 4.9, "price": "$310/ Day" },
+
+  { "id": 28, "brand": "Porsche", "model": "Cayenne Coupe", "image": "https://i.ibb.co.com/ksL8JLB6/porshe1.jpg", "details": ["Automatic","15 KM","Gasoline","Premium","Age 30","5 Persons"], "discout": "12.4", "rating": 4.7, "price": "$330/ Day" },
+  { "id": 29, "brand": "Porsche", "model": "Macan S", "image": "https://i.ibb.co.com/pBcbZfgk/porshe2.jpg", "details": ["Automatic","15 KM","Gasoline","Premium","Age 25","5 Persons"], "discout": "14.4", "rating": 4.6, "price": "$290/ Day" },
+  { "id": 30, "brand": "Porsche", "model": "Taycan 4S", "image": "https://i.ibb.co.com/JFWfgWxk/porshe3.jpg", "details": ["Automatic","35 KM","Electric","Luxury","Age 30","5 Persons"], "discout": "18.4", "rating": 4.9, "price": "$340/ Day" },
+
+  { "id": 31, "brand": "Land Rover", "model": "Range Rover Sport", "image": "https://i.ibb.co.com/FPMmZGc/land1.jpg", "details": ["Automatic","10 KM","Diesel","Luxury","Age 30","5 Persons"], "discout": "12.4", "rating": 4.8, "price": "$380/ Day" },
+  { "id": 32, "brand": "Land Rover", "model": "Discovery SE", "image": "https://i.ibb.co.com/xKBz8s5w/land2.jpg", "details": ["Automatic","15 KM","Diesel","Premium","Age 25","7 Persons"], "discout": "15.4", "rating": 4.6, "price": "$260/ Day" },
+  { "id": 33, "brand": "Land Rover", "model": "Evoque P300", "image": "https://i.ibb.co.com/BHKT0LBf/land3.jpg", "details": ["Automatic","20 KM","Gasoline","Standard","Age 25","5 Persons"], "discout": "10.4", "rating": 4.4, "price": "$240/ Day" }
 ]

@@ -5,7 +5,7 @@ import BlogHero from '../Component2/BlogHero'
 
 const SecHome = () => {
   return (
-    <div>
+    <div className='bg-black/5'>
       <BlogHero></BlogHero>
       <Blog></Blog>
       

@@ -6,7 +6,7 @@ import Section3 from '../Component/Section3'
 import BookCar from '../Component/BookCar'
 import Section4 from '../Component/Section4'
 import Section5 from '../Component/Section5'
-import Section6 from '../Component/Section6'
+
 
 
 
@@ -22,7 +22,7 @@ const Home = () => {
       <BookCar></BookCar>
       <Section4></Section4>
       <Section5></Section5>
-      <Section6></Section6>
+      
       
     </div>
   )

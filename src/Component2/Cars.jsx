@@ -56,7 +56,7 @@ export default function Cars() {
   if (!cars.length) return <div className="p-6 text-center">No cars found.</div>;
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto ">
 
       {/* 🔥 BRAND FILTER + SEARCH BAR */}
       <div className="flex flex-wrap items-center justify-between mb-7 gap-3 py-10">
@@ -102,9 +102,9 @@ export default function Cars() {
       <hr className='text-gray-300'/>
 
       {/* CAR GRID */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 py-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 py-5 ">
         {filteredCars.slice(0, visibleCount).map((car, idx) => (
-          <div key={idx} className="rounded-2xl shadow-lg overflow-hidden flex flex-col">
+          <div key={idx} className="rounded-2xl shadow-lg overflow-hidden flex flex-col bg-white">
             <div className="h-50 w-full relative">
               <img
                 src={car.image}
@@ -112,7 +112,7 @@ export default function Cars() {
                 className="w-full h-full object-cover"
                 onError={(e) => { e.target.src = 'https://placehold.co/600x400?text=No+Image'; }}
               />
-              <button className=' absolute top-6 left-6 text-white bg-yellow-500/50 px-2  rounded-full z-50'>{car.discout}</button>
+              <button className=' absolute top-6 left-6 text-white bg-black/40 px-2  rounded-full z-10'>🌟{car.rating}</button>
             </div>
 
             <div className="p-6 flex-1 flex flex-col justify-between">
@@ -162,7 +162,7 @@ export default function Cars() {
                 <div className="text-md font-medium">{car.price}</div>
                 <div className='flex gap-2'>
                   <Link
-                  to={`/cars/${cars.id}`}
+                  to={`/cars/${car.id}`}
                   >
                     <button className='px-3 py-1 text-md rounded-lg bg-amber-400 font-semibold text-white hover:bg-[#c9a60c] transition'>
                     Details

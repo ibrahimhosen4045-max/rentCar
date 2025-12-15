@@ -56,7 +56,7 @@ const Navber = () => {
           {/* Show Login button when NOT logged in */}
           {!user && (
             <NavLink to="/login">
-              <span className="btn">Login</span>
+              <span className="btn font-bold text-[16px] text-yellow-600 hover:bg-amber-500 hover:text-white">Login</span>
             </NavLink>
           )}
 

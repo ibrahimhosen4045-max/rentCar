@@ -6,7 +6,7 @@ import CarsB from '../Component2/CarsB'
 
 const CarsCard = () => {
   return (
-    <div>
+    <div className='bg-black/5'>
       <CarsHero></CarsHero>
       <Cars></Cars>
       <CarsB></CarsB>
