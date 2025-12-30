@@ -1,9 +1,9 @@
 [
-  {
+   {
     "id": 1,
     "title": "Best Budget Car for City Ride",
     "excerpt": "Perfect for short city rides with comfort and low rental cost.",
-    "image": "https://i.ibb.co.com/TxgyPt7M/blog1.jpg",
+    "image": "https://i.ibb.co.com/mVDND5P3/blog1-min.jpg",
     "pricePerDay": 45,
     "tags": ["city", "budget", "easy"],
     "date": "2025-11-01"
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Spacious SUV for Family Trips",
     "excerpt": "Ideal for long drives, family tours, and carrying extra luggage.",
-    "image": "https://i.ibb.co.com/KjkWtVHM/blog2.jpg",
+    "image": "https://i.ibb.co.com/d4GVhzSR/blog2-min.jpg",
     "pricePerDay": 90,
     "tags": ["family", "suv", "tour"],
     "date": "2025-10-18"
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Premium Sedan for Luxury Rides",
     "excerpt": "Perfect for weddings, events, and VIP-level travel experiences.",
-    "image": "https://i.ibb.co.com/QjDfbTd2/blog3.jpg",
+    "image": "https://i.ibb.co.com/4nYsjCqt/blog3-min.jpg",
     "pricePerDay": 120,
     "tags": ["luxury", "sedan"],
     "date": "2025-09-25"
@@ -30,7 +30,7 @@
     "id": 4,
     "title": "24/7 Airport Pick & Drop Service",
     "excerpt": "Fast and safe airport transportation service available anytime.",
-    "image": "https://i.ibb.co.com/Kjpb7MZ7/blog4.jpg",
+    "image": "https://i.ibb.co.com/8LfZVQ92/blog4-min.jpg",
     "pricePerDay": 35,
     "tags": ["airport", "service"],
     "date": "2025-08-10"
@@ -39,7 +39,7 @@
     "id": 5,
     "title": "Fuel Efficient Car for Long Drives",
     "excerpt": "Smooth performance with excellent fuel savings for long trips.",
-    "image": "https://i.ibb.co.com/qYzr5f6t/blog5.jpg",
+    "image": "https://i.ibb.co.com/mVkbgdd0/blog5-min.jpg",
     "pricePerDay": 55,
     "tags": ["long-drive", "fuel-saving"],
     "date": "2025-07-07"
@@ -48,7 +48,7 @@
     "id": 6,
     "title": "Convertible Sports Car for Weekend Fun",
     "excerpt": "Experience the thrill with the top down! Perfect for weekend getaways.",
-    "image": "https://i.ibb.co.com/v44WGNKy/blog6.jpg",
+    "image": "https://i.ibb.co.com/dRvKLk0/blog6-min.jpg",
     "pricePerDay": 180,
     "tags": ["luxury", "sport", "weekend"],
     "date": "2025-06-01"
@@ -57,7 +57,7 @@
     "id": 7,
     "title": "Compact Hatchback for Easy Parking",
     "excerpt": "Small size makes navigating tight city streets and parking a breeze.",
-    "image": "https://i.ibb.co.com/yJpG29M/blog7.jpg",
+    "image": "https://i.ibb.co.com/PvMYqy61/blog7-min.jpg",
     "pricePerDay": 40,
     "tags": ["city", "budget", "compact"],
     "date": "2025-05-15"
@@ -66,7 +66,7 @@
     "id": 8,
     "title": "7-Seater Minivan for Large Groups",
     "excerpt": "Plenty of room for a large family or travel group and all their gear.",
-    "image": "https://i.ibb.co.com/B2cx51Yt/blog8.jpg",
+    "image": "https://i.ibb.co.com/BHc8f4fG/blog8-min.jpg",
     "pricePerDay": 110,
     "tags": ["family", "tour", "group"],
     "date": "2025-04-22"
@@ -75,7 +75,7 @@
     "id": 9,
     "title": "Off-Road Vehicle for Adventure Trails",
     "excerpt": "Built for rugged terrain and adventurous exploration beyond the city.",
-    "image": "https://i.ibb.co.com/ZpC6PSYZ/blog9.jpg",
+    "image": "https://i.ibb.co.com/1YXtWpK1/blog9-min.jpg",
     "pricePerDay": 150,
     "tags": ["adventure", "4x4", "suv"],
     "date": "2025-03-10"
@@ -84,7 +84,7 @@
     "id": 10,
     "title": "Electric Vehicle (EV) for Eco-Friendly Travel",
     "excerpt": "Zero emissions and a quiet, smooth ride. Charging stations available.",
-    "image": "https://i.ibb.co.com/ZRBBNwZW/blog10.jpg",
+    "image": "https://i.ibb.co.com/v6rdc4nF/blog10-min.jpg",
     "pricePerDay": 75,
     "tags": ["eco", "electric", "fuel-saving"],
     "date": "2025-02-28"
@@ -93,7 +93,7 @@
     "id": 11,
     "title": "Hourly Driver Service for Meetings",
     "excerpt": "Professional chauffeur service for business meetings and short errands.",
-    "image": "https://i.ibb.co.com/4Zcgv67p/blog11.jpg",
+    "image": "https://i.ibb.co.com/ynS2wh5p/blog11-min.jpg",
     "pricePerDay": 160,
     "tags": ["service", "business", "luxury"],
     "date": "2025-01-15"
@@ -102,7 +102,7 @@
     "id": 12,
     "title": "Heavy-Duty Pickup Truck for Hauling",
     "excerpt": "Great towing capacity and cargo bed for moving heavy or bulky items.",
-    "image": "https://i.ibb.co.com/whTRb7tP/blog12.jpg",
+    "image": "https://i.ibb.co.com/gMbqLyYr/blog12-min.jpg",
     "pricePerDay": 130,
     "tags": ["utility", "work", "truck"],
     "date": "2024-12-05"

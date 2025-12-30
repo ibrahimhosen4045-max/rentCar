@@ -6,3 +6,6 @@
 @theme{
     --font-jalano: "Zalando Sans Expanded", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}

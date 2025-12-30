@@ -5,11 +5,11 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
-import img1 from '../assets/wd1.jpg';
-import img2 from '../assets/wd2.jpg';
-import img3 from '../assets/wd3.jpg';
-import img4 from '../assets/md1.jpg';
-import img5 from '../assets/md2.jpg';
+import img1 from '../assets/wd1-min.jpg';
+import img2 from '../assets/wd2-min.jpg';
+import img3 from '../assets/wd3-min.jpg';
+import img4 from '../assets/md1-min.jpg';
+import img5 from '../assets/md2-min.jpg';
 
 import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
 
